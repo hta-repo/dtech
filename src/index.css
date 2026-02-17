@@ -1,0 +1,32 @@
+/* <!-- developed by muhammad moeez 171 --> */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.mont-serif{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 240px; /* adjust the width as needed */
+}
+
+.main-content {
+  margin-left: 240px; /* adjust the margin to match the sidebar width */
+}
+::-webkit-scrollbar {
+ display: none;
+}
+
+/* Optional: Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+ display: none;
+}
+/* headed by aipixel */
